@@ -1,0 +1,95 @@
+h1, h2, h3, h4, h5, h6 {
+  padding: 0.5rem;
+}
+
+h4, h5 {
+  padding-left: 0.8rem;
+}
+
+h6 {
+  padding-left: 0.9rem;
+}
+
+p {
+  margin: 0;
+  padding-left: 0.9rem;
+}
+
+.progress-wrapper {
+  padding: 0.8rem;
+}
+
+.progress-wrapper p {
+  margin-top: 0.3rem;
+}
+
+.col-lg-4 {
+  padding: 0;
+}
+
+.left-col {
+  background: #00386b;
+}
+
+.left-col h4 {
+  background: #002a54;
+}
+
+.left-col h5 {
+  font-weight: 400;
+}
+
+.info {
+  margin-bottom: 1rem;
+}
+
+.r-col {
+  border-top: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+}
+
+.r-col h4 {
+  color: #00386b;
+}
+
+.job-des h5 {
+  padding: 0;
+  color: #00386b;
+}
+
+.job-des a {
+  color: #00386b;
+}
+
+.job-des a:hover {
+  text-decoration: none;
+}
+
+.job-des ul {
+  padding-left: 0.7rem;
+}
+
+#interest {
+  text-align: center;
+}
+
+@media print {
+  @page {
+    size: A4;
+  }
+  @page rotated {
+    size: landscape;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .right-col p {
+    padding-left: 0 !important;
+  }
+  .m-3 {
+    margin: 1rem 0 0 0 !important;
+  }
+  .col-sm-12 p, .col-sm-12 h5 {
+    text-align: center;
+  }
+}
